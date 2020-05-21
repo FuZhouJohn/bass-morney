@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 import {Link} from "react-router-dom";
 import React from "react";
-import tag from 'icons/tag.svg'
-
+require('icons/tag.svg')
 
 const NavStyled = styled.nav`
   line-height: 24px;
@@ -22,7 +21,9 @@ function Nav(){
         <NavStyled>
             <ul>
                 <li>
-                    <img className='icon' src={tag} alt="tag"/>
+                    <svg className='icon' >
+                        <use xlinkHref='#tag'/>
+                    </svg>
                     <Link to="/tag">标签页</Link>
                 </li>
                 <li>
