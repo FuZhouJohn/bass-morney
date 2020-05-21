@@ -26,15 +26,15 @@ function Nav(){
             <ul>
                 <li>
                     <Icon name='tag'/>
-                    <Link to="/tag">标签页</Link>
+                    <Link to="/tag">标签</Link>
                 </li>
                 <li>
                     <Icon name='money'/>
-                    <Link to="/money">记账页</Link>
+                    <Link to="/money">记账</Link>
                 </li>
                 <li>
                     <Icon name='chart'/>
-                    <Link to="/statistics">统计页</Link>
+                    <Link to="/statistics">统计</Link>
                 </li>
             </ul>
         </NavStyled>
